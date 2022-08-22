@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+    --background-color: #282a36;
+    --text-color: #f8f8f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 2.5em;
+    color: #bd93f9;
+}
+
+/*** TABLE ****/
+
+#table-imc {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#table-imc h2 {
+    color: #50fa7b;
+}
+
+#table-imc table {
+    margin-top: 1.2em;
+}
+
+#table-imc table tr {
+    text-align: center;
+}
+
+#table-imc table tr th {
+    color: #8be9fd;
+    padding-bottom: 1em;
+}
+
+#table-imc table tr td {
+    color: #f8f8f2;
+    padding: .5em 2em;
+    align-items: center;
+    border-bottom: 1px solid #44475a;
+}
+
+/*** CALCULATOR ***/
+
