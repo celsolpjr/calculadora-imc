@@ -41,6 +41,7 @@ section h1 {
 
 #table-imc h2 {
     color: #50fa7b;
+    margin-bottom: 1em;
 }
 
 #table-imc table {
@@ -65,3 +66,52 @@ section h1 {
 
 /*** CALCULATOR ***/
 
+#calculator {
+
+    margin-top: 4em;
+    text-align: center;
+}
+
+#calculator h2 {
+    color: #ff5555;
+    margin-bottom: 2em;
+}
+
+#calculator form {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator form label {
+    padding: 1em;
+    color: #f8f8f2;
+}
+
+#calculator form input {
+    padding: .5em;
+    background-color: #44475a;
+    border-radius: 1em;
+    font-size: 14px;
+    text-align: center;
+    color: #bd93f9;
+}
+
+#calculator form input:focus {
+    border: 1px solid #bd93f9;
+}
+
+#calculator form button {
+    margin-top: 3em;
+    padding: .5em;
+    border-radius: 1em;
+    background-color: #f8f8f2;
+    cursor: pointer;
+}
+
+#clean-button {
+    margin-bottom: 4em;
+}
+
+#calculator form button:hover {
+    border: 1px solid #bd93f9;
+}
